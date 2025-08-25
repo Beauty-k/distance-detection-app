@@ -1,0 +1,128 @@
+__pycache__/
+*.pyo
+*.pyd
+*.mp4
+*.mov
+*.avi
+*.jpg
+*.png
+*.jpeg
+*.jpg
+*.pt
+*.txt
+temp/
+*.pyc
+.env
+*.csv
+static/output.mp4
+data/
+dataset/
+requirements.txt
+.vscode/
+.idea/
+/ios/
+object_detection_app
+
+distance_calculation_mobile_app/flutter_frontend/.dart_tool/
+distance_calculation_mobile_app/flutter_frontend/build/
+distance_calculation_mobile_app/flutter_frontend/pubspec.lock
+distance_calculation_mobile_app/flutter_frontend/.metadata
+
+# Flutter generated
+distance_calculation_mobile_app/flutter_frontend/**/GeneratedPluginRegistrant.*
+distance_calculation_mobile_app/flutter_frontend/**/generated_plugin_registrant.*
+
+# iOS
+distance_calculation_mobile_app/flutter_frontend/ios/Flutter/
+distance_calculation_mobile_app/flutter_frontend/ios/.symlinks/
+distance_calculation_mobile_app/flutter_frontend/ios/Pods/
+distance_calculation_mobile_app/flutter_frontend/ios/Podfile.lock
+
+# Android
+distance_calculation_mobile_app/flutter_frontend/android/.gradle/
+distance_calculation_mobile_app/flutter_frontend/android/app/build/
+distance_calculation_mobile_app/flutter_frontend/android/local.properties
+distance_calculation_mobile_app/flutter_frontend/android/key.properties
+
+# ===== Backend =====
+distance_calculation_mobile_app/backend/runs/
+*.pt
+*.log
+*.tmp
+*.csv
+
+# ===== IDE junk =====
+.vscode/
+.idea/
+*.iml
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# VS Code
+.vscode/
+
+# iOS
+.ios/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+
+
+# Android
+**/android/.gradle/
+**/android/app/build/
+**/android/local.properties
+**/android/key.properties
+**/android/captures/
+
+# Others
+*.log
+*.lock
+*.tmp
+*.swp
+
+
+
