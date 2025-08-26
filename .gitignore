@@ -1,138 +1,128 @@
-# __pycache__/
-# *.pyo
-# *.pyd
-# *.mp4
-# *.mov
-# *.avi
-# *.jpg
-# *.png
-# *.jpeg
-# *.jpg
-# *.pt
-# *.txt
-# temp/
-# *.pyc
-# .env
-# *.csv
-# static/output.mp4
-# data/
-# dataset/
-# requirements.txt
-# .vscode/
-# .idea/
-# /ios/
-# object_detection_app
+# =========================
+# Python / Backend
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.csv
+*.pt
+*.txt
+*.swp
+*.mp4
+ *.mov
+*.avi
+*.jpg
+*.png
+*.jpeg
+*.jpg
+*.pt
+*.txt
+temp/
+*.pyc
+.env
+*.csv
+static/output.mp4
+requirements.txt
 
-# distance_calculation_mobile_app/flutter_frontend/.dart_tool/
-# distance_calculation_mobile_app/flutter_frontend/build/
-# distance_calculation_mobile_app/flutter_frontend/pubspec.lock
-# distance_calculation_mobile_app/flutter_frontend/.metadata
-# distance_calculation_mobile_app/flutter_frontend/.windows/
-# # Flutter generated
-# distance_calculation_mobile_app/flutter_frontend/**/GeneratedPluginRegistrant.*
-# distance_calculation_mobile_app/flutter_frontend/**/generated_plugin_registrant.*
+# Virtual envs / config
+.env
+migrate_working_dir/
 
-# # iOS
-# distance_calculation_mobile_app/flutter_frontend/ios/Flutter/
-# distance_calculation_mobile_app/flutter_frontend/ios/.symlinks/
-# distance_calculation_mobile_app/flutter_frontend/ios/Pods/
-# distance_calculation_mobile_app/flutter_frontend/ios/Podfile.lock
+# Backend project-specific
+temp/
+static/output.mp4
+data/
+dataset/
+distance_calculation_mobile_app/backend/runs/
+object_detection_app/
 
-# # Android
-# distance_calculation_mobile_app/flutter_frontend/android/.gradle/
-# distance_calculation_mobile_app/flutter_frontend/android/app/build/
-# distance_calculation_mobile_app/flutter_frontend/android/local.properties
-# distance_calculation_mobile_app/flutter_frontend/android/key.properties
+# =========================
+# Flutter / Frontend
+# =========================
+# Build
+build/
+.distance_calculation_mobile_app/flutter_frontend/build/
+distance_calculation_mobile_app/flutter_frontend/.dart_tool/
+distance_calculation_mobile_app/flutter_frontend/pubspec.lock
+distance_calculation_mobile_app/flutter_frontend/.metadata
 
-# # ===== Backend =====
-# distance_calculation_mobile_app/backend/runs/
-# *.pt
-# *.log
-# *.tmp
-# *.csv
-
-# # ===== IDE junk =====
-# .vscode/
-# .idea/
-# *.iml
-
-# # Miscellaneous
-# *.class
-# *.log
-# *.pyc
-# *.swp
-# .DS_Store
-# .atom/
-# .build/
-# .buildlog/
-# .history
-# .svn/
-# .swiftpm/
-# migrate_working_dir/
-
-# # IntelliJ related
-# *.iml
-# *.ipr
-# *.iws
-# .idea/
+# Platform-specific (ignore all generated)
+distance_calculation_mobile_app/flutter_frontend/ios/
+distance_calculation_mobile_app/flutter_frontend/android/
+distance_calculation_mobile_app/flutter_frontend/web/
+distance_calculation_mobile_app/flutter_frontend/windows/
+distance_calculation_mobile_app/flutter_frontend/macos/
+distance_calculation_mobile_app/flutter_frontend/linux/
+distance_calculation_mobile_app/flutter_frontend/.pubspec.yaml/
 
 
-# # Flutter/Dart/Pub related
-# **/doc/api/
-# **/ios/Flutter/.last_build_id
-# .dart_tool/
-# .flutter-plugins
-# .flutter-plugins-dependencies
-# .pub-cache/
-# .pub/
-# /build/
-# # Symbolication related
-# app.*.symbols
+# Generated plugin registrants
+distance_calculation_mobile_app/flutter_frontend/**/GeneratedPluginRegistrant.*
+distance_calculation_mobile_app/flutter_frontend/**/generated_plugin_registrant.*
 
-# # Obfuscation related
-# app.*.map.json
+# iOS specific
+**/ios/Flutter/
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/.last_build_id
 
-# # Android Studio will place build artifacts here
-# /android/app/debug
-# /android/app/profile
-# /android/app/release
+# Android specific
+**/android/.gradle/
+**/android/app/build/
+**/android/local.properties
+**/android/key.properties
+**/android/captures/
+**/android/.kotlin/
+**/android/.app/
 
+# Windows
+.windows/
 
-# # iOS
-# .ios/
-# **/ios/Flutter/App.framework
-# **/ios/Flutter/Flutter.framework
-# **/ios/.symlinks/
-# **/ios/Pods/
-# **/ios/Podfile.lock
-# **/ios/Flutter/Generated.xcconfig
-# **/ios/Flutter/ephemeral/
+# =========================
+# Dart / Pub
+# =========================
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+**/doc/api/
 
-# .windows/
+# =========================
+# IDE / Editor junk
+# =========================
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.atom/
+.history
+.svn/
 
-# # Android
-# **/android/.gradle/
-# **/android/app/build/
-# **/android/local.properties
-# **/android/key.properties
-# **/android/captures/
+# =========================
+# Miscellaneous
+# =========================
+*.class
+.DS_Store
+.build/
+.buildlog/
+.swiftpm/
 
-# # Others
-# *.log
-# *.lock
-# *.tmp
-# *.swp
+# Symbolication / Obfuscation
+app.*.symbols
+app.*.map.json
 
-
-
-# Ignore everything
-/*
-
-# But keep the lib folder
-!/lib/
-!/lib/**
-
-# !/pubspec.yaml
-# !/pubspec.lock
-# !/analysis_options.yaml
-!/README.md
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
