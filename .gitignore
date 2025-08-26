@@ -58,7 +58,6 @@ distance_calculation_mobile_app/flutter_frontend/macos/
 distance_calculation_mobile_app/flutter_frontend/linux/
 distance_calculation_mobile_app/flutter_frontend/.pubspec.yaml/
 
-
 # Generated plugin registrants
 distance_calculation_mobile_app/flutter_frontend/**/GeneratedPluginRegistrant.*
 distance_calculation_mobile_app/flutter_frontend/**/generated_plugin_registrant.*
@@ -75,7 +74,7 @@ distance_calculation_mobile_app/flutter_frontend/**/generated_plugin_registrant.
 **/ios/Flutter/.last_build_id
 
 # Android specific
-**/android/.gradle/
+# **/android/.gradle/
 **/android/app/build/
 **/android/local.properties
 **/android/key.properties
