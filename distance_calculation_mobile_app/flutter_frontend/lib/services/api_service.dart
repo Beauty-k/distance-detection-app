@@ -21,10 +21,16 @@ class ApiService {
     // Add form fields for object labels
     request.fields['label1'] = object1;
     request.fields['label2'] = object2;
-
+    
     try {
+      print("Uploading video: ${videoFile.path}");
+      print("Target labels: $object1, $object2");
+
       final streamedResponse = await request.send();
+      print("Streamed response status: ${streamedResponse.statusCode}");
+
       final response = await http.Response.fromStream(streamedResponse);
+      print("Response body: ${response.body}");
 
       if (response.statusCode == 200) {
         return jsonDecode(response.body);
@@ -32,8 +38,23 @@ class ApiService {
         throw Exception("Failed to upload video: ${response.body}");
       }
     } catch (e) {
+      print("Error uploading video: $e");
       throw Exception("Error uploading video: $e");
     }
   }
-}
+    
+    // try {
+    //   final streamedResponse = await request.send();
+    //   final response = await http.Response.fromStream(streamedResponse);
+
+    //   if (response.statusCode == 200) {
+    //     return jsonDecode(response.body);
+    //   } else {
+    //     throw Exception("Failed to upload video: ${response.body}");
+    //   }
+    // } catch (e) {
+    //   throw Exception("Error uploading video: $e");
+    // }
+    // }
+  }
 

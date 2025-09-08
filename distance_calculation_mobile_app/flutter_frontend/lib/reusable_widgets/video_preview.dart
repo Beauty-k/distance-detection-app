@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class VideoPreview extends StatelessWidget {
-  final Widget videoPlayer; // Pass your video widget here
+  final Widget videoPlayer;
 
   const VideoPreview({
     super.key,
