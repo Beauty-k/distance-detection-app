@@ -1,0 +1,125 @@
+# =========================
+# Python / Backend
+# =========================
+
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.csv
+*.pt
+*.txt
+*.swp
+*.mp4
+ *.mov
+*.avi
+*.jpg
+*.png
+*.jpeg
+*.jpg
+*.txt
+temp/
+*.pyc
+.env
+*.csv
+static/output.mp4
+requirements.txt
+
+# Virtual envs / config
+.env
+migrate_working_dir/
+
+# Backend project-specific
+temp/
+static/output.mp4
+data/
+dataset/
+distance_calculation_mobile_app/backend/runs/
+object_detection_app/
+
+# =========================
+# Flutter / Frontend
+# =========================
+# Build
+build/
+.distance_calculation_mobile_app/flutter_frontend/build/
+distance_calculation_mobile_app/flutter_frontend/.dart_tool/
+distance_calculation_mobile_app/flutter_frontend/.metadata
+
+# Platform-specific (ignore all generated)
+distance_calculation_mobile_app/flutter_frontend/ios/
+distance_calculation_mobile_app/flutter_frontend/android/
+distance_calculation_mobile_app/flutter_frontend/web/
+distance_calculation_mobile_app/flutter_frontend/windows/
+distance_calculation_mobile_app/flutter_frontend/macos/
+distance_calculation_mobile_app/flutter_frontend/linux/
+distance_calculation_mobile_app/flutter_frontend/.pubspec.yaml/
+
+# Generated plugin registrants
+distance_calculation_mobile_app/flutter_frontend/**/GeneratedPluginRegistrant.*
+distance_calculation_mobile_app/flutter_frontend/**/generated_plugin_registrant.*
+
+# iOS specific
+**/ios/Flutter/
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/.last_build_id
+
+# Android specific
+# **/android/.gradle/
+**/android/app/build/
+**/android/local.properties
+**/android/key.properties
+**/android/captures/
+**/android/.kotlin/
+**/android/.app/
+
+# Windows
+.windows/
+
+# =========================
+# Dart / Pub
+# =========================
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+**/doc/api/
+
+# =========================
+# IDE / Editor junk
+# =========================
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.atom/
+.history
+.svn/
+
+# =========================
+# Miscellaneous
+# =========================
+*.class
+.DS_Store
+.build/
+.buildlog/
+.swiftpm/
+
+# Symbolication / Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
